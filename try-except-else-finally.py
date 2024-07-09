@@ -23,6 +23,33 @@ finally:
 	del x
 	print("Anyway try-except block finished")
 
+-----
+#create own exceptions simple way!
+#Inherinting the base Exceptional class to create our own!
+
+
+
+class MyOwnError(Exception):
+	"Just defining myown error exceotion, so i can use everywhere i wish!"
+	pass
+
+			<or>
+
+
+class MyOwnError(Exception):	pass
+
+
+x=10
+try:
+	if x<15:
+		raise MyOwnError("X is greater than 15!")
+	else:
+		print("Done")
+except MyOwnError as err:
+	print(err)
+
+
+-----
 ----
 
 Types Of EXceptionals: 
