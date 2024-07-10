@@ -9,5 +9,5 @@ ask me to upload new concept and topics :)
 
 
 ---
-today 5 topics enough, tired af rn, tomorrow there will be some probably!
 
+simple manner sources*
